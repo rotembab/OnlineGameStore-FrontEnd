@@ -9,8 +9,7 @@ export default function NavBar() {
             <h1 className='text-3xl'>My Game Shop</h1>
             <h3 className='text-lg'>Come and get your keys!</h3>
             </div>
-            
-            <input className='rounded-full p-2 text-black text-md w-max h-max m-auto ' type={"text"}></input>
+            <input className='rounded-full p-2 text-black text-md w-96 h-max m-auto ' type={"text"}></input>
 
         </div>
     </div>
