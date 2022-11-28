@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div className='bg-primary'>
+    <div className='bg-primary sticky'>
         <div className='p-4 grid grid-cols-3 text-center container m-auto text-white text-xl'>
             <div>
             <h1 className='text-3xl'>My Game Shop</h1>
