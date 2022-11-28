@@ -4,8 +4,14 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className='bg-primary'>
-        <div className='p-4 grid grid-cols-1 text-center container m-auto text-white text-xl'>
-            Come and get your keys!
+        <div className='p-4 grid grid-cols-3 text-center container m-auto text-white text-xl'>
+            <div>
+            <h1 className='text-3xl'>My Game Shop</h1>
+            <h3 className='text-lg'>Come and get your keys!</h3>
+            </div>
+            
+            <input className='rounded-full p-2 text-black text-md w-max h-max m-auto ' type={"text"}></input>
+
         </div>
     </div>
   )
