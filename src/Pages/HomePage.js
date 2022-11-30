@@ -3,8 +3,8 @@ import Category from '../Components/Category'
 
 export default function HomePage() {
   return (
-    <div className='bg-primary'>
-      <div className='h-screen container m-auto'>
+    <div className='bg-primary h-full min-h-max'>
+      <div className='container m-auto h-max min-h-max'>
         <Category title="Black Friday" items={[
       {name:'Marvel\'s Spider-Man Remastered',src:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNQJvtMQ--Ghj8hVjeaOEjfbTDCGa5G_dOkJ2KJorWETrsKF4g&usqp=CAc",price:"59.99"},
       {name:'Marvel\'s Spider-Man Miles Morales',src:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6oEpLYXiXmVoknWLWvekXwiLrMXpm1xhwrfpYRIQ7iujHJVY&usqp=CAc",price:"39.99"},
