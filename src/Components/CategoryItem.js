@@ -1,8 +1,8 @@
 import React from 'react'
 export default function CategoryItem(props) {
   return (
-    <div className='w-64 p-4 text-center hover:drop-shadow-xl'>
-        <img className="m-auto w-64 h-54 transition ease-in-out delay-100 hover:scale-110" src={props.item.src}/>
+    <div className='w-60 p-4 text-center hover:drop-shadow-xl'>
+        <img className="m-auto w-60 h-54 transition ease-in-out delay-100 hover:scale-110" src={props.item.src}/>
         <div className='py-4 '> 
             <div className='text-white bg-secondary rounded '>
                 <div className='w-full p-2 h-14'>

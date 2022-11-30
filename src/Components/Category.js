@@ -9,7 +9,7 @@ export default function Category(props) {
             {props.title}
         </h3><div style={{boxShadow:"0px 0px 20px white"}} className='m-auto border-t   border-white w-full h-0' />
         </div>
-        <div className='grid grid-cols-6 py-4 gap-64'>
+        <div className='grid grid-cols-6 py-4 gap-60'>
             {props.items.map((item,key) =>{
                 return <CategoryItem key={key} item={item}/>
             })}
